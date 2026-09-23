@@ -1,0 +1,15 @@
+ResNet-50 Test Set Results
+==================================================
+              precision    recall  f1-score   support
+
+      glioma       0.98      0.80      0.88       400
+  meningioma       0.90      0.91      0.91       400
+     notumor       0.86      0.99      0.92       400
+   pituitary       0.97      0.99      0.98       400
+
+    accuracy                           0.92      1600
+   macro avg       0.93      0.92      0.92      1600
+weighted avg       0.93      0.92      0.92      1600
+
+ROC-AUC (OvR): 0.9855
+Inference time: 7.33s total (4.58 ms/image)
