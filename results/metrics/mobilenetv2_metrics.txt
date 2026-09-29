@@ -1,0 +1,28 @@
+MobileNetV2 Test Set Results (two-phase transfer learning: frozen head training + fine-tuning of features[14:])
+==================================================
+              precision    recall  f1-score   support
+
+      glioma       0.98      0.81      0.89       400
+  meningioma       0.89      0.96      0.93       400
+     notumor       0.92      1.00      0.96       400
+   pituitary       0.99      0.99      0.99       400
+
+    accuracy                           0.94      1600
+   macro avg       0.95      0.94      0.94      1600
+weighted avg       0.95      0.94      0.94      1600
+
+ROC-AUC (OvR): 0.9860
+
+Test Accuracy: 94.31%
+Best validation accuracy: 98.12% (Phase 2, epoch 12)
+
+Efficiency
+==================================================
+Total Parameters: 2228996
+Trainable Parameters (Phase 1): 5124 (0.23%)
+Trainable Parameters (Phase 2): 1686468 (75.66%)
+Phase 1 Time: 316.07 seconds (31.61 seconds per epoch)
+Phase 2 Time: 483.89 seconds (32.26 seconds per epoch)
+Total Training Time: 13.33 minutes
+Inference Time per Image: 4.025 ms
+Model Size: 8.50 MB
