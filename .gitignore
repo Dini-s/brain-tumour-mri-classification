@@ -220,3 +220,6 @@ __marimo__/
 # Dataset (download via data/README.md, ~1GB — never commit)
 data/Training/
 data/Testing/
+
+# Trained model checkpoints (large binary files — do not commit)
+*.pth
